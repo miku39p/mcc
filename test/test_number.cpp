@@ -3,10 +3,5 @@
 
 TEST(HELLO, NUMB){
     EXPECT_EQ(add(1,2),3);
+    EXPECT_NE(add(1,2),2);
 }
-
-// int a = add(1,2);
-// int main(){
-//     int c = a+1;
-//     return c;
-// }
